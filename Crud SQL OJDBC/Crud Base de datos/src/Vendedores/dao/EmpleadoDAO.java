@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Vendedores.dao;
 
 import Vendedores.Vendedores;
@@ -10,10 +6,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import javax.swing.JTable;
 
-/**
- *
- * @author racco
- */
 public class EmpleadoDAO {
     
     private String mensaje = "";

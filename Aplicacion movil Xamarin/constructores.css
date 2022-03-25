@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .encabezado{
+        padding: 1.3rem;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        border-top: black  solid .7rem;
+        border-right: black solid .7rem;
+        border-radius: .6rem;
+        
+    }
+    .titulo{
+        width: 75vw;
+        color:black;
+        font-family: inherit bold;
+        font-size: 3rem;
+    }
+    .carta{
+        width: 90vw;
+        height: 51vh;   
+        justify-self: center;
+        align-self: center;
+        justify-self: center;
+        align-self: center;
+        border-top: black  solid .3rem;
+        border-right: #e10600 solid .3rem;
+        border-radius: .5rem;
+    }
+    .cabecera-carta{
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(255, 255, 255);
+     height: 15%;
+     align-items: center;
+    }
+    .posicion{
+        color:black;
+        font-size: 3.5rem;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    .puntos{
+        color:black;
+        font-size: 2.0rem;
+        font-family: sans-serif;
+        font-weight: bolder;
+        display: block;
+    }
+    .info-corredor{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-top: black solid .05rem;
+        border-bottom: black solid .05rem;
+    }
+    .nombre-carta{
+        color:black;
+        font-size: 1.7rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .bandera{
+        width: 20%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .foto-bandera{
+        width: 90%;
+        height: 100%;
+    }
+    .escuderia-carta{
+        width: 100%;
+        height: 10%;
+        margin-top: .5rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        border-bottom: black solid .05rem;
+        align-items: center;
+        padding: .3rem;
+    }
+        .nombre-corredor1
+    {
+        width: 48%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border-bottom: black  solid .1rem;
+        border-right: black solid .1rem;
+        border-radius: .3rem;
+        
+        
+    }
+    .nombre-corredor2
+    {
+        width: 48%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border-bottom: black  solid .1rem;
+        border-right: black solid .1rem;
+        border-radius: .3rem;
+       
+    }
+    .presentacion{
+        width: 100%;
+        height: 50%;
+    }
+    .foto{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+    }
+    .foto-piloto{
+        width: 100%;
+        height: 60%;
+        z-index: 2;
+        position: relative;
+        left: 15%;
+
+    }
+    .fondo{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: relative;
+        top: -106%;
+        background-color: currentColor;
+    }
+    .foto-fondo{
+        width: 100%;
+        height: 100%;
+    }
+    .franja{
+        width: 100%;
+        height: 4%;
+        border: #e10600 solid 2.5rem;
+        border-bottom: .7rem;
+        border-right: .7rem;
+    }
+    .espacio{
+        width: 15%;
+    }
+    

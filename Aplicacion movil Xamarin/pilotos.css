@@ -1,0 +1,147 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.encabezado{
+    padding: 1.3rem;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-top: black  solid .7rem;
+    border-right: black solid .7rem;
+    border-radius: .6rem;
+    
+}
+.titulo{
+    width: 75vw;
+    color:black;
+    font-family: inherit bold;
+    font-size: 3rem;
+}
+.carta{
+    width: 90vw;
+    height: 48vh;   
+    justify-self: center;
+    align-self: center;
+    justify-self: center;
+    align-self: center;
+    border-top: black  solid .3rem;
+    border-right: #e10600 solid .3rem;
+    border-radius: .5rem;
+}
+.cabecera-carta{
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(255, 255, 255);
+ height: 15%;
+ align-items: center;
+}
+.posicion{
+    color:black;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.puntos{
+    color:black;
+    font-size: 2.0rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: block;
+}
+.info-corredor{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: black solid .05rem;
+    border-bottom: black solid .05rem;
+}
+.nombre-carta{
+    color:black;
+    font-size: 1.0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.bandera{
+    width: 20%;
+    height: 60%;
+    border: black solid .1rem;
+    border-radius: .5rem;
+}
+.foto-bandera{
+    width: 100%;
+    height: 100%;
+}
+.escuderia-carta{
+    width: 100%;
+    height: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    margin-top: .5rem;
+}
+.presentacion{
+    width: 100%;
+    height: 50%;
+}
+.foto{
+    height: 100%;
+    width: 60%;
+}
+.foto-piloto{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    left: 40%;
+}
+.numero{
+    width: 20%;
+    height: 30%;
+    position: relative;
+    z-index: 2;
+    top: -40%;
+}
+.foto-numero{
+    width: 100%;
+    height: 100%;
+}
+.fondo{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    top: -148%;
+    background-color: currentColor  ;
+}
+.foto-fondo{
+    width: 100%;
+    height: 100%;
+}
+.franja{
+    width: 100%;
+    height: 5%;
+    border: #e10600 solid 2.5rem;
+    border-bottom: .7rem;
+    border-right: .7rem;
+}
+.espacio{
+    width: 15%;
+}
